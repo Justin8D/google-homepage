@@ -1,0 +1,156 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Google</title>
+	<style>
+	
+html {
+	position: relative;
+	min-height: 100%;
+	}	
+
+body {
+    margin: 0 0 40px; /* bottom = footer height */
+	}
+
+#bottomFooter {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(242,242,242);
+    border-top: rgb(228,228,228) solid thin;
+    font: 13px sans-serif;
+    color: blue;
+	}
+	
+
+#nav {
+	margin: 12px 20px 0 0;
+	float:right;
+	font: 13px sans-serif;
+	color: black;
+	}
+
+li {
+	display:inline;
+	padding: 0 8px;
+	}
+	
+.navImage {
+	vertical-align: middle;
+	}
+
+a:link {
+	text-decoration: none;
+	color:inherit;
+	}
+
+a:hover {
+	text-decoration: underline;
+	}
+
+#logo {
+	width:269px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+#middleContent {
+	float:left;
+	margin-top:144px;
+	width:100%;
+	text-align:center;
+
+	}
+	
+input {
+	width:466px;
+	height:18px;
+	margin:0 auto 0 auto;
+	display:block;
+	padding:4px 7px;
+	margin-top:25px;
+
+	}
+	
+input:focus{
+	outline: rgb(78,144,251) solid thin;
+	}
+
+button {
+	margin: 0 auto 0 auto;
+	display: inline-block;
+	height:29px;
+	font: bold 11px  sans-serif;
+	background-color: rgb(245,245,245);
+	border: rgb(218,218,218) solid 1px;
+	margin: 15px 6px;
+	padding:0 8px;
+	}
+	
+button:hover {
+-webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
+box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
+	}
+	
+#leftFooter {
+	float:left;
+	padding: 0px 0px 0px 15px;
+	color: rgb(102,102,102);
+
+}
+
+#rightFooter {
+	float:right;
+	color: rgb(102,102,102);
+	padding: 0px 15px 0 0;
+
+	}
+	
+#bottomFooter li {
+	padding: 0 14px;
+	}
+
+
+	
+	</style>
+</head>
+
+<body>
+		<ul id="nav">
+			<li><a href="https://plus.google.com/">+Justin</a></li>
+			<li><a href="https://mail.google.com/">Gmail</a></li>
+			<li><a href="https://images.google.com">Images</a></li>
+			<li><a href="https://www.google.com/work/apps/business/"><img src="images/grid.png"class="navImage"></a></li>
+			<li><a href="https://plus.google.com/"><img src="images/bell.png" class="navImage"></a></li>
+			<li><a href="https://plus.google.com/"><img src="images/plus.png" class="navImage"></a></li>
+			<li><a href="https://plus.google.com/"><img src="images/user.png" class="navImage"></a></li>
+		</ul>
+
+	<div id="middleContent">
+		<img src="images/google.png" id="logo">
+		<form>
+			<input type="text">
+			<button id="search">Google Search</button>
+			<button id ="lucky">I'm Feeling Lucky</button>
+		</form>
+	</div>
+	<div id="bottomFooter">
+		<ul id="leftFooter">
+			<li><a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a></li>
+			<li><a href="https://www.google.com/services/?fg=1">Business</a></li>
+			<li><a href="https://www.google.com/intl/en/about.html?fg=1">About</a></li>
+		</ul>
+		<ul id="rightFooter">
+			<li><a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a></li>
+			<li><a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a></li>
+			<li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
+		</ul>
+	</div>
+</body>
+</html>
+	
